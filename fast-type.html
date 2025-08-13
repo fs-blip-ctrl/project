@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastType Challenge</title>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ FastType Challenge ⚡</h1>
+        <p id="quote">Click "Start" to begin typing!</p>
+        
+        <textarea id="input" placeholder="Start typing here..." disabled></textarea>
+        
+        <div class="stats">
+            <p>⏳ Time: <span id="timer">0</span> sec</p>
+            <p>⌨ Speed: <span id="speed">0</span> WPM</p>
+            <p>✅ Accuracy: <span id="accuracy">0</span>%</p>
+        </div>
+        
+        <button id="startBtn">Start</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz with Result Images</title>
+    <link rel="stylesheet" href="ftc/fast-type.css">
+</head>
+<body>
+
+    <!-- Background video -->
+    <video autoplay muted loop id="bg-video">
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <!-- Main container -->
+    <div class="container">
+        <h1>Simple Quiz</h1>
+
+        <div id="quiz">
+            <p>1. What is 2 + 2?</p>
+            <input type="radio" name="q1" value="4"> 4 <br>
+            <input type="radio" name="q1" value="5"> 5 <br>
+
+            <p>2. Capital of France?</p>
+            <input type="radio" name="q2" value="Paris"> Paris <br>
+            <input type="radio" name="q2" value="London"> London <br>
+
+            <button onclick="checkResult()">Submit</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2>Your Score: <span id="score"></span></h2>
+            <img id="result-image" src="" alt="Result Image">
+        </div>
+    </div>
+
+    <script src="ftc/fast-type.js"></script>
+</body>
+</html>
