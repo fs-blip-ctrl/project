@@ -19,6 +19,8 @@ Open index.html in your browser
 
 ## 📸 Screenshots
 ![Project Screenshot](screenshot.png)
+![Project Screenshot](sc1.png)
+![Project Screenshot](sc2.png)
 
 ## 📚 Learning Outcome
 - Improved JavaScript DOM manipulation
