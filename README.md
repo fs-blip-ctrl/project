@@ -18,7 +18,7 @@ This project is a collection of web-based applications built using HTML, CSS, an
 Open index.html in your browser
 
 ## 📸 Screenshots
-(Add screenshots here later)
+![Project Screenshot](screenshot.png)
 
 ## 📚 Learning Outcome
 - Improved JavaScript DOM manipulation
